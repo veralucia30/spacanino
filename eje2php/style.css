@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #e1eec3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f88082, #e1eec3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f69ea0, #e1eec3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    background-color: bisque;
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding: 50px;
+    border-radius: 7pt;
+      
+}
+input[type="submit"]{
+    width: 50%;
+    height: 30px;
+    margin: auto;
+    background-color: #f05053;
+    color: white;;
+    cursor: pointer;
+}
